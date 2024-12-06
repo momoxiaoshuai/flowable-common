@@ -19,6 +19,8 @@
 - MySQL 8.x
 
 ## 项目结构
+
+```
 calf-flowable/
 ├── calf-flowable-service/ # 服务层模块
 │ ├── src/main/java
@@ -28,6 +30,7 @@ calf-flowable/
 └── calf-flowable-web/ # Web层模块
 └── src/main/java
 └── com/mxs/flowable/controller/ # 控制器
+```
 
 ## 通用流程模板
 
@@ -102,9 +105,9 @@ calf-flowable/
    ```sql
    # 执行数据库初始化脚本
    source calf-flowable-service/src/main/resources/sql/init.sql
-   ```
 
 3. 配置修改
+
    - 修改数据库连接配置
    - 修改应用服务器端口等配置
 
